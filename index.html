@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mural dos PIX</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8f8;
+      padding-top: 110px; /* espaço para o topo fixo */
+    }
+
+    header, footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+    }
+
+    #top-banner {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: #5a2d82; /* roxo vibrante */
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 10px 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+      z-index: 1000;
+    }
+
+    .perfil-destaque {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      background: #7e4bbe;
+      border-radius: 12px;
+      padding: 8px 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+      color: white;
+      min-width: 250px;
+    }
+
+    .perfil-destaque img {
+      width: 70px;
+      height:70px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #fff;
+    }
+
+    .perfil-destaque h3 {
+      margin: 0 0 5px 0;
+      font-size: 1.9em; /* Aumentei aqui */
+      font-weight: bold;
+      line-height: 1.1;
+    }
+
+    .perfil-destaque p {
+      margin: 0;
+      font-size: 1.5em; /* Aumentei aqui para melhor leitura */
+      opacity: 0.85;
+    }
+
+    main {
+      padding: 1em;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 2em;
+    }
+
+    ol {
+      padding-left: 1.2em;
+    }
+
+    .aguardando {
+      font-style: italic;
+      color: #888;
+      text-align: center;
+      padding: 2em;
+    }
+  </style>
+</head>
+<body>
+  <div id="top-banner">
+    <div class="perfil-destaque">
+      <img src="img/pato.webp" alt="Foto de Perfil" />
+      <div>
+        <h3>@alergicoacarteira</h3>
+        <p>0 seguidores</p>
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <h1>Mural do PIX</h1>
+    <p>Cada doação via Pix vira um espaço aqui no site 🎉</p>
+  </header>
+
+  <main>
+    <section id="instrucoes">
+      <h2>Como participar</h2>
+      <ol>
+        <li>Vá até o nosso Instagram: <strong>@alergicoacarteira</strong></li>
+        <li>Faça um Pix de <strong>R$1</strong> ou mais (chave na bio)</li>
+        <li>Nos envie a frase, imagem ou link por DM</li>
+        <li>Seu conteúdo aparece aqui! 🚀</li>
+      </ol>
+    </section>
+
+    <section id="mural">
+      <h2>Mural Público</h2>
+      <p class="aguardando">🕒 Esperando o primeiro Pix...</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Feito com R$1 no Pix 💸</p>
+  </footer>
+</body>
+</html>

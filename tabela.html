@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tabela de Doações</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f4f9;
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    background: white;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(101, 41, 255, 0.15);
+    padding: 2rem 3rem;
+  }
+
+  h1 {
+    text-align: center;
+    color: #5a2d82;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    background: #ece6fa;
+    border-left: 6px solid #5a2d82;
+    margin-bottom: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(90, 45, 130, 0.1);
+    transition: background-color 0.3s ease;
+  }
+
+  li:hover {
+    background: #d7cbf9;
+  }
+
+  .valor {
+    font-weight: 700;
+    color: #5a2d82;
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .descricao {
+    font-size: 1rem;
+    color: #3c3c3c;
+    line-height: 1.4;
+  }
+</style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Tabela de recompensa</h1>
+    <ul>
+      <li>
+        <div class="valor">R$1 até 4</div>
+        <div class="descricao">Frase ou foto no mural</div>
+      </li>
+      <li>
+        <div class="valor">R$5 até 9</div>
+        <div class="descricao">Título personalizado para sua frase ou foto</div>
+      </li>
+      <li>
+        <div class="valor">R$10 até 19</div>
+        <div class="descricao">Link clicável para seu Instagram ou site, com destaque colorido</div>
+      </li>
+      <li>
+        <div class="valor">R$20 até 29</div>
+        <div class="descricao">Área exclusiva só sua com até 3 imagens ou frases + uma funcionalidade interativa (mini game, puzzle, botão de mensagens engraçadas ou frase especial)</div>
+      </li>
+      <li>
+        <div class="valor">R$50 até 99</div>
+        <div class="descricao">Destaque especial no mural por tempo bugado pra ser eterno (99999999999 dias), com sua foto e nome no topo do mural</div>
+      </li>
+      <li>
+        <div class="valor">R$100 ou mais</div>
+        <div class="descricao">Nome fixo num banner no topo do site + badge exclusivo de Colaborador VIP ou Patrocinador</div>
+      </li>
+    </ul>
+  </div>
+
+</body>
+</html>
